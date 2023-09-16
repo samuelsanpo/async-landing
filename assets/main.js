@@ -1,9 +1,10 @@
+import API_KEY from '../../config.js';
 const API = 'https://youtube-v31.p.rapidapi.com/playlistItems?playlistId=PLT6KVETRMixNul-GGzw5L-EFAD8Emcu-i&part=snippet&maxResults=8';
 const content = null || document.getElementById('content');
 const options = {
     method: 'GET',
     headers: {
-        'X-RapidAPI-Key': '144930c8a2mshb6fbd4bc614aa7dp1b7e9cjsne77fe305e18c',
+        'X-RapidAPI-Key': API_KEY,
         'X-RapidAPI-Host': 'youtube-v31.p.rapidapi.com'
     }
 };
@@ -13,7 +14,6 @@ async function fetchData(urlApi) {
     const data = await response.json();
     return data;
 }
-
 
 (async () => {
     try {
