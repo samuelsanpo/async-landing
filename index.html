@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script defer src="./assets/main.js"></script>
+</head>
+
+<body>
+  <div class="relative bg-zinc-900 overflow-hidden">
+    <div class="max-w-7xl mx-auto">
+      <div class="relative z-10 pb-8 bg-zinc-950 sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
+        <svg class="hidden lg:block absolute right-0 inset-y-0 h-full w-48 text-zinc-900 transform translate-x-1/2"
+          fill="currentColor" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+          <polygon points="50,0 100,0 50,100 0,100" />
+        </svg>
+        <div>
+          <div class="relative pt-6 px-4 sm:px-6 lg:px-8">
+            <nav class="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
+              <div class="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
+                <div class="flex items-center justify-between w-full md:w-auto">
+                  <a href="#">
+                    <span class="sr-only">Samuel landing</span>
+                  </a>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+
+        <main class="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+          <div class="sm:text-center lg:text-left">
+            <h1 class="text-4xl tracking-tight font-extrabold text-white sm:text-5xl md:text-6xl">
+              <span class="block xl:inline">Samuel Sanabria</span>
+              <span class="block text-sky-600 xl:inline">@samuelsanpo</span>
+            </h1>
+            <p class="mt-3 text-base text-white sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+              Informatics engineer, currently a full stack developer with languages such as javascript, typescript or
+              C#, and technologies such as React JS, Asp.Net Core, API Rest architectures, among others.</p>
+            <br>
+            <a href="https://www.linkedin.com/in/samuel-sanabria/" target="_blank"><span
+                class="md:text-xl block text-sky-600">Linkedin</span></a>
+          </div>
+
+        </main>
+      </div>
+    </div>
+    <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+      <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
+        src="https://scontent.fbog2-5.fna.fbcdn.net/v/t39.30808-6/331952863_718031006662509_5509547268189252463_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=PRhsTyUrlrAAX9Sil0I&_nc_ht=scontent.fbog2-5.fna&oh=00_AfCNXrc6PozE1ieDj6TIQxVTcGaXIpAFlaOVhwUH2y3FgQ&oe=650A74CF"
+        alt="">
+    </div>
+  </div>
+  <div class="bg-zinc-950">
+    <div class="max-w-2xl mx-auto py-16 px-4 sm:py-24 sm:px-6 lg:max-w-7xl lg:px-8">
+      <h2 class="text-2xl font-extrabold tracking-tight text-white">Some of my favorite songs</h2>
+      <div class="mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8" id="content">
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
